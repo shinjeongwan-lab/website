@@ -1,21 +1,11 @@
 +++
-
 title = "Python 정렬 알고리즘 학습 기록"
-
-date = 2026-11-07T00:00:00+09:00
-
+date = "2026-11-07T00:00:00+09:00"
 draft = false
-
 description = "선택 정렬과 병합 정렬의 동작 원리 정리"
-
-tags = \["Python", "알고리즘"]
-
-categories = \["프로그래밍"]
-
+tags = ["Python", "알고리즘"]
+categories = ["프로그래밍"]
 +++
-
-
-
 \# Python 정렬 알고리즘 학습
 
 
