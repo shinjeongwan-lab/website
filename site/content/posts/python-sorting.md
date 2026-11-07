@@ -3,9 +3,10 @@ title = "Python 정렬 알고리즘 학습 기록"
 date = "2026-11-07T00:00:00+09:00"
 draft = false
 description = "선택 정렬과 병합 정렬의 동작 원리 정리"
-tags = ["Python", "알고리즘"]
-categories = ["프로그래밍"]
+tags = \["Python", "알고리즘"]
+categories = \["프로그래밍"]
 +++
+
 # Python 정렬 알고리즘 학습
 
 
@@ -14,7 +15,7 @@ categories = ["프로그래밍"]
 
 
 
-## 1. 선택 정렬
+## 1\. 선택 정렬
 
 
 
@@ -24,15 +25,35 @@ categories = ["프로그래밍"]
 
 **특징**
 
-- 구현이 비교적 간단합니다.
+* 구현이 비교적 간단합니다.
+* 시간 복잡도는 O(n²)입니다.
+* 데이터가 많아질수록 비교 횟수가 증가합니다.
+* \### 선택 정렬 Python 구현
+* 
+* ```python
+* def selection\_sort(arr):
+* &#x20;   n = len(arr)
+* 
+* &#x20;   for i in range(n):
+* &#x20;       min\_idx = i
+* 
+* &#x20;       for j in range(i + 1, n):
+* &#x20;           if arr\[j] < arr\[min\_idx]:
+* &#x20;               min\_idx = j
+* 
+* &#x20;       arr\[i], arr\[min\_idx] = arr\[min\_idx], arr\[i]
+* 
+* &#x20;   return arr
+* 
+* numbers = \[5, 3, 8, 1, 2]
+* print(selection\_sort(numbers))
+* ```
+* 
+* 실행 결과: `\[1, 2, 3, 5, 8]`
 
-- 시간 복잡도는 O(n²)입니다.
-
-- 데이터가 많아질수록 비교 횟수가 증가합니다.
 
 
-
-## 2. 병합 정렬
+## 2\. 병합 정렬
 
 
 
@@ -42,15 +63,13 @@ categories = ["프로그래밍"]
 
 **특징**
 
-- 분할 정복 알고리즘을 사용합니다.
-
-- 시간 복잡도는 O(n log n)입니다.
-
-- 추가 메모리가 필요할 수 있습니다.
+* 분할 정복 알고리즘을 사용합니다.
+* 시간 복잡도는 O(n log n)입니다.
+* 추가 메모리가 필요할 수 있습니다.
 
 
 
-## 3. 학습한 내용
+## 3\. 학습한 내용
 
 
 
