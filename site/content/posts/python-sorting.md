@@ -66,6 +66,41 @@ categories = \["프로그래밍"]
 * 분할 정복 알고리즘을 사용합니다.
 * 시간 복잡도는 O(n log n)입니다.
 * 추가 메모리가 필요할 수 있습니다.
+### 병합 정렬 Python 구현
+
+```python
+def merge_sort(arr):
+    if len(arr) <= 1:
+        return arr
+
+    mid = len(arr) // 2
+
+    left = merge_sort(arr[:mid])
+    right = merge_sort(arr[mid:])
+
+    result = []
+    i = 0
+    j = 0
+
+    while i < len(left) and j < len(right):
+        if left[i] <= right[j]:
+            result.append(left[i])
+            i += 1
+        else:
+            result.append(right[j])
+            j += 1
+
+    result.extend(left[i:])
+    result.extend(right[j:])
+
+    return result
+
+
+numbers = [5, 3, 8, 1, 2]
+print(merge_sort(numbers))
+```
+
+실행 결과: `[1, 2, 3, 5, 8]`
 
 
 
