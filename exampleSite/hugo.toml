@@ -1,5 +1,5 @@
 baseURL = "https://shinjeongwan-lab.github.io/website/"
-title = "johndoe"
+title = "신정완"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -22,11 +22,11 @@ noClasses = false
 unsafe = true
 
 [params]
-author = "John Doe"
+author = "신정완"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "John Doe's personal website"
+description = "신정완의 개인 포트폴리오 사이트"
 keywords = "blog,developer,personal"
-info = ["Full Stack DevOps", "Magician"]
+info = ["웹 개발과 기술에 관심이 많은", "신정완입니다"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
