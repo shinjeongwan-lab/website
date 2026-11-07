@@ -17,3 +17,4 @@ public
 **/resources/_gen/
 **/.hugo_build.lock
 /.github-pages-setup-backups/
+exampleSite/demo-posts-backup/
