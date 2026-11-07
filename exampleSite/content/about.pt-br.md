@@ -1,25 +1,28 @@
 +++
 title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+description = "개인 소개 및 학습 목표"
+date = "2026-10-31"
+author = "신정완"
 +++
 
-Escrito em Go, Hugo é um gerador de sites estáticos de código aberto disponível sobre a licença [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) O Hugo suporta TOML, YAML e JSON como arquivos de dados, Markdown e HTML como arquivos de conteúdo, e usa shortcodes para adicionar conteúdos ricos. Outras funcionalidades notaveis são taxonomias, modo multilingual, processamento de imagens, formatos de saída customizaveis, minificação de HTML/CSS/JS e suporte a fluxos SASS/SCSS.
+## 자기소개
+안녕하세요! 웹 개발과 기술에 관심이 많은 신정완입니다. 
+배우는 과정에서 새로운 문제를 해결하는 것에 보람을 느끼며 열심히 공부하고 있습니다.
 
-O Hugo faz o uso de vários projetos de código aberto incluíndo:
+---
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+## 관심 분야 및 선택 이유 (P71)
+* **관심 분야:** 웹 프론트엔드 및 백엔드 시스템 구축
+* **선택 이유:** 사용자가 직접 이용하는 화면을 만들고, 그 뒤에서 데이터가 효율적으로 처리되는 전체적인 흐름을 설계하는 과정이 매력적이어서 관심 분야로 선택하게 되었습니다.
 
-O Hugo é ideal para blogs, sites corporativos, protfólio criativos, revistas online, aplicações de página única ou até sites com milhares de páginas.
+---
 
-O Hugo é para pessoas que querem cuidar do seu próprio site sem se preocupar com a configuração ambientes complicados, dependências e bancos de dados.
+## 학습 목표 및 실행 계획 (P72)
+* **학습 목표:** Hugo static site generator와 Git Actions를 활용한 자동화 배포 파이프라인 완벽 이해
+* **실행 계획:** 이번 개인 포트폴리오 사이트 구축을 시작으로 매주 학습한 내용과 프로젝트 진행 과정을 마크다운 문서로 기록하고 GitHub 저장소에 지속적으로 푸시할 예정입니다.
 
-Sites contru;idos com Hugo são extremamente rápidos, seguros e podem ser implantados em qualquer lugar, incluíndo AWS, GitHub Pages, Heroku, Netlify e outros provedores de hospedagem.
+---
 
-Saiba mais e contribua em [GitHub](https://github.com/gohugoio).
+## 현재 역량 및 적용 사례 (P73)
+* **기술 및 역량:** Git / GitHub 버전 관리
+* **적용 사례:** 본 개인 소개 웹사이트 프로젝트에서 테마를 설정하고, 변경 이력을 수십 회 이상의 유효 커밋으로 관리하며 GitHub Pages에 자동 배포를 성공적으로 적용하였습니다.
