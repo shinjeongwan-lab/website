@@ -1,13 +1,5 @@
 +++
 title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
-+++
-
-+++
-title = "About"
 description = "개인 소개 및 학습 목표"
 date = "2026-10-31"
 author = "신정완"
