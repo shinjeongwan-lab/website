@@ -1,5 +1,5 @@
 +++
-title = "About"
+title = "자기소개"
 description = "개인 소개 및 학습 목표"
 date = "2026-10-31"
 author = "신정완"
